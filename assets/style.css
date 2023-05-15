@@ -1844,13 +1844,12 @@ header .main-menus nav ul li a:hover {
 }
 @media only screen and (max-width: 480px) {
   .slider-area .sliders .slider-list .slider-con {
-    top: 0;
+    top: 12.5%;
     margin: 50px 0 0;
   }
 }
 @media only screen and (max-width: 320px) {
   .slider-area .sliders .slider-list .slider-con {
-    top: 0;
     margin: 25px 0 0;
   }
 }
@@ -2199,10 +2198,24 @@ header .main-menus nav ul li a:hover {
   float: left;
   text-align: center;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 420px) {
   .counter-area .counter ul li {
     width: 100%;
     margin: 0 0 25px;
+  }
+  .event-area .row .events {
+    padding: 20px;
+  }
+  .event-area .row .events button {
+    font-size: 18px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+  }
+  .event-area .row .events h4 {
+    margin-bottom: 0;
+  }
+  .contact-area .row .contact-info .info-list .info-content {
+    padding-left: 15px;
   }
 }
 .counter-area .counter ul li span {
@@ -2332,7 +2345,6 @@ div#map_canvas iframe {
   text-align: center;
   font-family: 'Playball', cursive;
   font-weight: 500;
-  font-size: 3em;
 }
 /*....................................
 21. Event area start here
